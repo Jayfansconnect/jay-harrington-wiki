@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jay Harrington Fan Verification Form</title>
+</head>
+<body>
+  <h2>Official Fan Access Request – Jay Harrington</h2>
+  <p>All requests are processed through Abe Hock (Manager) & the official team. Verified fans will receive a code by email.</p>
+
+  <form action="https://formspree.io/f/mayzvqnr" method="POST" enctype="multipart/form-data">
+
+    <label>Full Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email Address (for verification code):</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Preferred Way to Connect:</label><br>
+    <select name="connection_type" required>
+      <option value="">--Select--</option>
+      <option value="Meet & Greet (in-person)">Meet & Greet (in-person)</option>
+      <option value="Virtual Call or Q&A">Virtual Call or Q&A</option>
+      <option value="Send Jay a Message">Send Jay a Message</option>
+    </select><br><br>
+
+    <label>Why do you want to connect with Jay?</label><br>
+    <textarea name="reason" rows="5" placeholder="Tell us why you're a fan or what you'd like to say to Jay." required></textarea><br><br>
+
+    <label>Upload a Fan Photo or ID (optional):</label><br>
+    <input type="file" name="fan_photo"><br><br>
+
+    <label>Favorite Show or Character:</label><br>
+    <input type="text" name="favorite_show" placeholder="e.g. SWAT, Better Off Ted"><br><br>
+
+    <button type="submit">Request Fan Verification</button>
+  </form>
+</body>
+</html>
